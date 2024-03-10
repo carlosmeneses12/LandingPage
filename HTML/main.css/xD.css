@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body {
+    font-family:'Kanit', sans-serif;
+    overflow-x: hidden;
+
+
+}
+
+
+/*---------------MENÜ*/
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/*========SLIDER DE IMAGENES*/
+
+.carousel-inner {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+
+  
+
+/*-----PAntalla pequeña  INTRO*/
+@media (max-width:768px){ 
+    #intro, #infoPer{
+        width:90% !important
+    }
+    #infoPer p{
+        display:none;
+    }
+
+    }
+    .servicio-fila{
+    width:100% !important;
+    text-align: center;
+    }
+    #bg-contactos{
+        position:relative;
+        top: -110px;
+    }
+/*pantalla ultra pequeña*/
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/*=========SECCIONEQUIPO MAPA!===========*/
+
+
+#local{
+    background-color: #f3f3f3;
+    padding-bottom:300px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper{
+    width: 50%;
+    margin-left:100px ;
+    padding-top: 150px;
+}
+
+/*=======PANTALLA ANCHA*/
+@media(max-width:1200px){
+    #local {
+        flex-wrap:wrap;
+        padding-top: 30px;
+
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/*#########SEXXION EQUIPO#############*/
+#numeros-local-mapa{
+    text-align: center;
+    margin: auto;
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+#numeros-local div{
+    text-align: center;
+    padding: 0px 200px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(last-child){
+    border-right: 10px solid #3f3f3f;
+}
+#numeros-local div:not(:first-child){
+    padding-left: 100px;
+
+}
+
+#numeros-local p{
+    text-align: center;
+    margin: auto;
+}
+
+/*=============CONTACTOS BACKGROUND================*/
+#bg-contactos{
+    position:relative;
+    top: -130px;
+}
+#seccion-contactos{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/*=============CONTACTOS FORMULARIO==================*/
+#contenedor-formulario {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ebebf2;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color: #3f3f3f;
+
+}
+
+/*==========================FOOTER=======================================*/
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+
+
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+
+}
+
+/*=========================MEDIDAPROTEECCION PAG2===================*/ 
+.container  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .vulneracion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+h1 {
+    color: #c46cd4;
+  
+}
+  
+ p {
+   font-size: 1.2em;
+   padding: 0em 2em;
+   color: rgba(0, 0, 0, 0.5);
+}
+  
+.readMore_btn {
+    background-color: #f152f1;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #904caf;
+    cursor: pointer;
+}
+  
+.readMore_btn:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+  
+   
+.hideText {
+    display: none;
+}
+  
+.showText {
+    display: block;
+}
+
+div #ubicada{
+    position:center;
+    top: 50%;
+    margin: auto;
+}
